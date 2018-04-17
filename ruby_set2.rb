@@ -5,11 +5,12 @@
 # sample output [{"QT001" => "john"}, {"QT002" => "jane"}, ...]
 # ["john", "jane", "sam", "rockwell", "edward", "brad", "jared"]
 
- array = ["john", "jane", "sam", "rockwell", "edward", "brad", "jared"]
- h = []
- p array.inject({}) {|h,(k,v)| h[k]=v; h}
 
-# p array.each_with_index { |k,v| h[k]=v }
+ b = ["john", "jane", "sam", "rockwell", "edward", "brad", "jared"]
+ h = []
+ b.each_with_index { |ele| h << {:"QT001" => ele[0]}}
+ p h
+
 
 
 

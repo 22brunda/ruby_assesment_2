@@ -10,8 +10,10 @@
 # puts time.strftime("%H:%M")
 
 require 'date'
-p DateTime.parse("1pm").strftime("%H:%M:%S:%p")
-
+puts "Enter the time"
+str = gets.chomp
+str = DateTime.parse.strftime("%H:%M:%S:%p")
+p str
 
 # puts "Enter the time"
 # time = parse(gets)

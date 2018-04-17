@@ -33,6 +33,6 @@ lordname = God.new
 matysa = Matsya.new
 lordname.avatars(matysa)
 kurma = Kurma.new
-lordname.avatars(kurma)
+lordname.avatars(kurma) 
 narashima = Narashima.new
 lordname.avatars(narashima)
